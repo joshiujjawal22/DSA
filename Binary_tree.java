@@ -25,6 +25,8 @@ class Main{
 			or.inorder(root);
 			System.out.println("PREORDER");
 			or.preorder(root);
+			System.out.println("POSTORDER");
+			or.PostOrder(root);
 			
 		
 	}
