@@ -1,7 +1,8 @@
-class heapusingarray_insertion
+class minheapusing_insertion
 {
   static int heap[]=new int[100];
   static int heapSize = -1;
+  
   static void insert(int val) 
   {
     heapSize++;
