@@ -1,15 +1,31 @@
 import java.util.Scanner;
+
+/*nbj
+* 
+*	To find maximum sum of subarray
+*	Complexity: O(n)
+*
+*/
+
+
 class Kadane{
+
 	public static void main(String args[])
-	{	Scanner sc=new Scanner(System.in);
+	{	
+		Scanner sc=new Scanner(System.in);
+
 		int n =sc.nextInt();
 		int a[]=new int[n];
+
 		for(int i=0;i<n;i++)
 		{
 			a[i]=sc.nextInt();
 		}
+
 		System.out.println(kadane(a));
 	}
+
+		// Function to find maximum sum of subarray
 		 static int kadane(int a[]){
 			int max_after=Integer.MIN_VALUE,max=0;
 			
