@@ -1,11 +1,15 @@
 import java.util.*;
+
 class postfixEvaluation
 {
+
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
     String exp=new String(in.nextLine());
     System.out.println(eval(exp));
   }
+
+  // Function to evaluate postfix expression
   public static int eval(String exp)
   {
     char c;
@@ -31,6 +35,8 @@ class postfixEvaluation
     return s.pop();
   }
 }
+
+// Implementation of stack using linked list
 class Stack
 {
   private LinkList head;

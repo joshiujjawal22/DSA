@@ -1,10 +1,16 @@
 import java.util.*;
+
 class infix_to_postfix{
+
+
 	public static void main(String[] args){
 		Scanner sc=new Scanner(System.in);
 		String a=sc.next();
 		System.out.println(intopo(a));
 	}
+
+
+		// Function to convert infix into postfix
 		public static String intopo(String a)
 		{
 			String  z=new String();
@@ -52,7 +58,11 @@ class infix_to_postfix{
 	}
 			}
 		
-	
+
+
+// Implementation of stack using linked list
+
+
 class LinkList
 {
   public char d;
