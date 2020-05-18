@@ -1,19 +1,6 @@
 import java.util.*;
 
 
-class Node{
-	int data;
-	Node l,r;
-	Node(){}
-	Node(int d)
-	{
-		data=d;
-		l=null;
-		r=null;
-	}
-}
-
-
 class Main{
 	public static void main(String args[]){
 			Node root;
@@ -29,6 +16,8 @@ class Main{
 			levelorder(root);
 
 	}
+
+		//Function To print level order values
 		static void levelorder(Node head){
 			Queue<Node> q=new LinkedList<Node>();
 			while(head!=null)
@@ -43,4 +32,18 @@ class Main{
 				head=q.poll();
 			}
 		}
+
+}
+
+// Node implemenataion
+class Node{
+	int data;
+	Node l,r;
+	Node(){}
+	Node(int d)
+	{
+		data=d;
+		l=null;
+		r=null;
+	}
 }

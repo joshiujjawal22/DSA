@@ -1,4 +1,6 @@
 import java.util.*;
+
+// Node implemenataion
 class Node{
 int data;
 Node l,r;
@@ -9,17 +11,22 @@ Node l,r;
 	r=null;
 	}
 }
+
+
 class Main{
 	
 	public static void main(String args[]){
 		
 		Node root;
 			
+			// Putting values
 			root=new Node(1);
 			root.l=new Node(2);
 			root.r=new Node(3);
 			root.l.l=new Node(4);
 			root.l.r=new Node(5);
+
+			// Objects of Main to use below function
 			Main or=new Main();
 			System.out.println("INORDER");
 			or.inorder(root);
@@ -76,6 +83,9 @@ class Main{
             if(temp.r!=null) s1.push(temp.r);
         } 
         while(!s2.isEmpty()) System.out.println(s2.pop().data);
+
+        	// Implementation of post order using single stack
+
         	// Stack <Node>s=new Stack<Node>();
         	// while(curr!=null || !s.isEmpty())
         	// {

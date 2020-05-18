@@ -8,6 +8,8 @@ class Main
 
 	public static void main(String[] args) 
 { 
+
+	// Inserting Values
 	Node root = new Node(1); 
 	root.left = new Node(2); 
 	root.right = new Node(3); 
@@ -20,6 +22,7 @@ class Main
 
 	Node x = new Node(43); 
 
+	// Cousins to be find
 	printCousins(root, x); 
 	printCousins(root, root); 
 	printCousins(root, root.right); 
@@ -100,6 +103,7 @@ static void printCousins(Node root,
  
 
 } 
+
 // Declaration of Node
 class Node 
 { 

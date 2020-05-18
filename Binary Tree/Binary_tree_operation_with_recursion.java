@@ -1,4 +1,6 @@
 class Binary_tree{
+
+	
 	public static void main(String[] args)
 	{
 		Node root;
@@ -46,7 +48,7 @@ class Binary_tree{
 
 }
 
-
+// Node implemenataion
 class Node{
 	int data;
 	Node l,r;

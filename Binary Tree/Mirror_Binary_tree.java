@@ -1,21 +1,10 @@
 import java.util.Scanner;
-class Node
-{
-  int data; // data used as key value
-  Node leftChild;
-  Node rightChild;
-  public Node()
-  {
-    data=0;
-  }
-  public Node(int d)
-  {
-    data=d;
-  }
-}
+
 
 class Main
 {
+
+  // Function to print value in inorder
   static void inOrder(Node root)
   {
     if (root != null)
@@ -25,6 +14,8 @@ class Main
       inOrder(root.rightChild);
     }
   }
+
+  // Insertion of values
   static Node insertLevelOrder(int arr[], Node root, int i, int n)
   {
     if (i < n)
@@ -37,6 +28,7 @@ class Main
     return root;
   }
 
+/*To build the tree*/
   static Node buildTree(int t[], int n)
   {
     Node node = null;
@@ -44,6 +36,8 @@ class Main
     return node;
   }
 
+
+// Function to make the mirror
   static Node findMirror(Node root)
 { int i=0,top=0;
  Node r=root;
@@ -76,5 +70,21 @@ public static void main(String[] args)
       root = buildTree(a, n);
     root = findMirror(root);
     inOrder(root);
+  }
+}
+
+// Node Implementation`
+class Node
+{
+  int data; // data used as key value
+  Node leftChild;
+  Node rightChild;
+  public Node()
+  {
+    data=0;
+  }
+  public Node(int d)
+  {
+    data=d;
   }
 }
