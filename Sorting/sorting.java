@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+
 class sort {
 	public static void main(String args[]){
 		Scanner sc=new Scanner(System.in);
@@ -6,22 +8,33 @@ class sort {
 		int b_s_array[]=new int[n];
 
 		for(int i=0;i<n;i++)
-		{
-			b_s_array[i]=sc.nextInt(); //for bubble sort
+		{	
+			//for bubble sort
+			b_s_array[i]=sc.nextInt(); 
 		}
-		int s_s_array[]=b_s_array.clone(); //for selection sort
-		int i_s_array[]=b_s_array.clone(); //for insertion sort
-		sort all_sort=new sort();  //Object : all_sort
+		
+		// Cloning for other arrays by using clone() function.
+
+		//for selection sort
+		int s_s_array[]=b_s_array.clone(); 
+
+		//for insertion sort
+		int i_s_array[]=b_s_array.clone(); 
+
+		//Object : all_sort
+		sort all_sort=new sort();
+
 		System.out.println("Bubble Sort");
 		all_sort.bubble_sort(b_s_array);
+
 		System.out.println("\nSelection Sort");
 		all_sort.selection_sort(s_s_array);
+
 		System.out.println("\nInsertion Sort");
 		all_sort.selection_sort(i_s_array);
 
 
-		
-
+	
 	}
 	// Bubble Sort
 		void bubble_sort(int a[]){
@@ -86,11 +99,6 @@ class sort {
 			System.out.print(a[i]+" ");
 		}
 		}
-
-
-
-		// Merge Sort
-
 
 		}
 
