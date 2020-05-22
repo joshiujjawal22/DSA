@@ -1,10 +1,10 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-/*nbj
+/*
 * 
 *	To find the sum of triplet according to given number
-*	Complexity: O(n*log(n))
+*	Complexity: O(n*n)
 *	Array must be sorted
 *
 */
