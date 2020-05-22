@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-/*nbj
+/*
 * 
 *	To find maximum sum of subarray
 *	Complexity: O(n)
