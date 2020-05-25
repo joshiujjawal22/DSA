@@ -29,7 +29,7 @@ class minheap_deletion
     int curr=0;
 
     // Swapping of value according to greater value
-    
+    // Below process is called heapify
     while(curr*2+1<=heapSize || curr*2+2<=heapSize) 
     {
         
@@ -53,6 +53,11 @@ class minheap_deletion
      }       
   }
 
+  // To get minimum value in min-heap
+  static int getmin(){
+    return heap[0];
+  }
+
 
    public static void main(String ab[]) 
   {
@@ -64,6 +69,8 @@ class minheap_deletion
     for (i = 0; i < heapSize+1; i++)
       System.out.print(heap[i]+" ");
    System.out.println();
+
+   System.out.println("Maximum value in min Heap is : "+ getmin());
 
 
     delete();
@@ -77,6 +84,9 @@ class minheap_deletion
     System.out.println("Heap array after inserting 4 : ");
     for (i = 0; i < heapSize+1; i++)
       System.out.print(heap[i]+" ");
+    System.out.println();
+
+    System.out.println("Maximum value in min Heap is : "+ getmin());
 }
 
 }
