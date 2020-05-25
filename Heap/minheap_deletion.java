@@ -60,16 +60,21 @@ class minheap_deletion
     insert(10);
     insert(5);
     insert(15);
-    delete();
-
     System.out.println("Heap array after inserting 10, 5, 15 elements : ");
     for (i = 0; i < heapSize+1; i++)
       System.out.print(heap[i]+" ");
    System.out.println();
 
 
+    delete();
+    System.out.println("Heap array after deletion :");
+    for (i = 0; i < heapSize+1; i++)
+      System.out.print(heap[i]+" ");
+   System.out.println();
+
+    
     insert(4);
-    System.out.println("Heap array after inserting 10, 5, 15, 4 elements : ");
+    System.out.println("Heap array after inserting 4 : ");
     for (i = 0; i < heapSize+1; i++)
       System.out.print(heap[i]+" ");
 }
