@@ -1,4 +1,4 @@
-class maxheapusing_insertion
+class maxheap_deletion
 {
   // Declaration of Heap
   static int heap[]=new int[100];
@@ -25,9 +25,12 @@ class maxheapusing_insertion
   static void delete(){
     heap[0]=heap[heapSize--];
     int curr=0;
+
+    // Swapping of value according to greater value
+    
     while(curr*2+1<=heapSize || curr*2+2<=heapSize) 
     {
-      
+        
         if(heap[curr*2+1]>=heap[curr*2+2] && heap[curr*2+1]>heap[curr]){
             int temp=heap[curr];
             heap[curr] = heap[curr*2+1];
@@ -35,6 +38,7 @@ class maxheapusing_insertion
             curr=curr*2+1;
             continue;
         }
+
         else if(heap[curr*2+2]>heap[curr*2+1] && heap[curr*2+2]>heap[curr]){
             int temp=heap[curr];
             heap[curr] = heap[curr*2+2];
