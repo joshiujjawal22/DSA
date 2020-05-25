@@ -27,7 +27,7 @@ class maxheap_deletion
     int curr=0;
 
     // Swapping of value according to greater value
-    
+    // Below process is called heapify
     while(curr*2+1<=heapSize || curr*2+2<=heapSize) 
     {
         
@@ -49,6 +49,11 @@ class maxheap_deletion
         else break;
      
      }       
+  }
+
+  // To get maximum value in max-heap
+  static int getmax(){
+    return heap[0];
   }
 
    public static void main(String args[]) 
@@ -75,6 +80,8 @@ class maxheap_deletion
       System.out.print(heap[i]+" ");
    System.out.println();
 
+   System.out.println("Maximum value in max Heap is : "+ getmax());
+
     delete();
     System.out.println("Heap array after deletion");
     for (i = 0; i < heapSize+1; i++)
@@ -87,5 +94,8 @@ class maxheap_deletion
     System.out.println("Heap array after inserting 20");
     for (i = 0; i < heapSize+1; i++)
       System.out.print(heap[i]+" ");
+      System.out.println();
+
+    System.out.println("Maximum value in max Heap is : "+ getmax());
 }
 }
