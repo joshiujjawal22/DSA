@@ -25,7 +25,7 @@ class maxproductofsubset {
                 continue; 
             } 
   
-            // Count negatives
+            // Count negative values
             // Keep the value of maximum negative
             if (a[i] < 0) { 
                 negcount++; 
