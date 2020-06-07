@@ -16,9 +16,6 @@ static int i=0;
       root.l.l=new Node(7);
       root.l.r=new Node(11);
 
-      
-      System.out.println();
-      System.out.println("InOrder");
       InOrder(root);
       
       System.out.println(check()); 
