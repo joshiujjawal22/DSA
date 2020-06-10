@@ -1,13 +1,18 @@
 # DSA
 
-### These repository has codes on:
+### These Repository consist of basic Implementation & problem regarding below topics:
 
-    - Linked List
-    - Array
-	- Sorting
-	- Binary Search questions 
-    - Binary Tree
-    - Binary Search tree
-    - Stack   
     - Algorithm
+    - Array   
+    - Binary Search
+    - Binary Search Tree 
+    - Binary Tree
+    - Graph
+    - Greedy Algo
+    - Heap
+    - Linked List
+	- Others
+	- Queue
+    - Sorting
+    - Stack   
 	
