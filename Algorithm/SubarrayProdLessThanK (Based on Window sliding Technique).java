@@ -26,7 +26,7 @@ class ProdLessThanK{
 		int k=100;
 		int c=SubarrayProdLessThanK(a,k);
 
-		System.out.println("Number of Subarray less than K: "+ c);
+		System.out.println("Count of Subarray which have Product less than K: "+ c);
 
 	}
 }
