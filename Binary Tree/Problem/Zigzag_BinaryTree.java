@@ -1,10 +1,15 @@
-// Java implementation of a O(n) time  
-// method for Zigzag order traversal 
+/*
+*
+* Method for Zigzag order traversal 
+*Java implementation of a O(n) time  
+*
+*
+*/
 import java.util.*; 
 
-public class zigZagTreeTraversal { 
+public class zigZagTraversal { 
   
-// driver program to test the above function 
+
 public static void main(String[] args)  
 { 
     BinaryTree tree = new BinaryTree(); 
@@ -24,12 +29,12 @@ public static void main(String[] args)
 // Binary Tree node 
 class Node 
 { 
-int data; 
+int val; 
 Node l; 
 Node r; 
-Node(int data) 
+Node(int val) 
 { 
-    this.data = data;  
+    this.val = val;  
 } 
 } 
   
@@ -49,21 +54,18 @@ void printZigZagTraversal() {
     Stack<Node> currentLevel = new Stack<>(); 
     Stack<Node> nextLevel = new Stack<>(); 
   
-    // push the root 
     currentLevel.push(root); 
     boolean leftToRight = true; 
   
     // check if stack is empty 
     while (!currentLevel.isEmpty()) { 
   
-    // pop out of stack 
+    
     Node node = currentLevel.pop(); 
       
-    // print the data in it 
-    System.out.print(node.data + " "); 
+    System.out.print(node.val + " "); 
   
-    // store data according to current 
-    // order. 
+    // store val in order 
     if (leftToRight) { 
         if (node.l != null) { 
         nextLevel.push(node.l); 
