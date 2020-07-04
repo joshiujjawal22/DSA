@@ -65,8 +65,8 @@ void printZigZagTraversal() {
       
     System.out.print(node.val + " "); 
   
-    // store val in order 
-    if (leftToRight) { 
+    // store val in o 
+        if (leftToRight) { 
         if (node.l != null) { 
         nextLevel.push(node.l); 
         } 
