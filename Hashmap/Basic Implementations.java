@@ -2,11 +2,11 @@
 * basic implementation of
 * hashmap i.e put(),get(),
 * containskey(),isEmpty(),
-* size()
+* size(),iteration in hashmap
 */
 
 // Library used to import hashmap.
-import java.util.HashMap; 
+import java.util.*; 
 
 public class HashMap_Implementation { 
 	public static void main(String[] args) 
@@ -47,8 +47,10 @@ public class HashMap_Implementation {
 		// if key is found it returns true else false
 		System.out.println(map.containsKey("Joshi"));
 
-
-		
-		
+		// To iterate the map using entryset(),getkey()
+		// and getValue() function
+		System.out.println("Print using Iteration");
+		for (Map.Entry<String, String> e : map.entrySet()) 
+            System.out.println(e.getKey() + " " + e.getValue());
 	} 
 } 
