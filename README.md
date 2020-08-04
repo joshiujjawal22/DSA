@@ -3,6 +3,7 @@
 
 ### Algorithm
 > *It is well-defined procedure to solve the problems.*
+
 - Algos
     - 2 sum
     - 3 sum
@@ -18,6 +19,7 @@
 
 ### Array
 > *It consists of collection of elements, which identified by at least one index or key.*
+
 - Problems
     - Array Mainpulation
     - Rotation of array by 90 degree
@@ -25,6 +27,7 @@
 
 ### Binary Search Tree 
 > * Tree whose nodes store a key less than all the keys in the node's left subtree and greater than those in its right subtree.*
+
 - Implementation
     - Insertion(Iterative)
     - Insertion(Recursive)
@@ -35,6 +38,7 @@
 
 ### Binary Search
 > *It finds the position of a target value within sorted array.*
+
 - Implementation
     - Iterative
     - Recursive
@@ -46,4 +50,104 @@
     - Upper/Lower Bound
 
 ### Binary Tree
+> *A tree data structure in which each node has at most two children,i.e, left,right.*
+
+ Depth First Search(DFS):Inorder,preorder,postorder.
+<br>
+Breadth First Search(BFS):Level Order.
+
+- Implementation
+    - DFS(Iterative) 
+    - DFS(Recursive)
+    - BFS
+- Problems
+    - Tree Cousin
+    - Mirror of binary tree
+    - Zigzag order
+
+### Graph
+> *It is a non-linear data structure consisting of nodes and edges.*
+
+- Implementation
+    - Adjacent List
+    - BFS
+    - DFS
+- Problems
+    - Number of Islands
+
+### Hashmap
+> *Data structure which pairs keys to values.*
+
+- Implementations
+    - Basic
+-Problems
+    - Balanced Brackets
+
+
+### Heap Sort
+> *Comparison based technique based on binary heap.*
+
+- Implementation
+    - Maxheap Insertion/Deletion
+    - Minheap Insertion/Deletion
+    - Heapsort
+
+### Linked List
+> *It is a linear data structure where each element is a separate object.*
+
+- Implementation
+    - Insertion,deletion,traversal
+- Problems
+    - Reverse
+    - Loop detection 
+    - Beginning point of loop
+
+### Recursion
+> *Method of solving problems that involves breaking a problem down into smaller problems.*
+
+- Problems
+    - Fibonacci
+    - Factorial
+    - Tower of Hanoi
+
+### Sorting
+> *Process to arrange things systematically.*
+
+- Types
+    - Selection,Bubble,Insertion
+    - Quick Sort
+    - Merge Sort
+    - Counting Sort
+    - Radix Sort
+
+### Stack
+> *Linear data structure which follows a particular Last-In-First-Out operation.*
+
+- Problems
+    - Balanced Brackets
+    - Infix to Postfix
+    - Postfix Evaluation
+
+### String
+> *Sequence of characters.*
+
+- Problems
+    - Palindrome.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
