@@ -81,7 +81,8 @@ Breadth First Search(BFS):Level Order.
 - Implementations
     - <a href="Hashmap/Basic Implementations.java">Basic</a>
 -Problems
-    - <a href="Hashmap/balancedBracket.java">Balanced Brackets</a>
+    - <a href="Hashmap/Problems/balancedBracket.java">Balanced Brackets</a>
+    - <a href="Hashmap/Problems/NumbersAndTheirCounts.java">Numbers and their count</a>
 
 ### Heap Sort
 > *Comparison based technique based on binary heap.*
