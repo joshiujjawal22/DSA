@@ -23,7 +23,7 @@ class Binary_tree{
         root.r=new Node(15);
         root.l.r=new Node(11);  
 
-        int k=1; //Kth value
+        int k=2; //Kth value
 
         int result=Smallest_element(root,k);
 
