@@ -24,6 +24,8 @@
     - <a href="Array/Array_Manipulation.java">Array Mainpulation</a>
     - <a href="Array/Rotate_array_by_90_degree.java">Rotation of array by 90 degree</a>
     - <a href="Array/Trapping of water.java">Trapping of water</a>
+    - <a href="Array/Container With Most Water.java">Container with most water</a>
+    - <a href="Array/Trapping of water(Array).java">Container with most water</a>
 
 ### Binary Search Tree 
 > * Tree whose nodes store a key less than all the keys in the node's left subtree and greater than those in its right subtree.*
@@ -64,6 +66,13 @@ Breadth First Search(BFS):Level Order.
     - <a href="Binary Tree/Problem/Binary_Tree_cousin.java">Tree Cousin</a>
     - <a href="Binary Tree/Problem/Mirror_Binary_tree.java">Mirror of binary tree
     - <a href="Binary Tree/Problem/Zigzag_BinaryTree.java">Zigzag order
+
+### Dynamic Programming
+> *Technique to solve problem by breaking into sub-problems.*
+
+- Problems
+    - <a href="DP/Longest_Increasing_Subsequence.java">Longest Increasing Subsequence</a>
+
 
 ### Graph
 > *It is a non-linear data structure consisting of nodes and edges.*
@@ -133,3 +142,5 @@ Breadth First Search(BFS):Level Order.
 
 - Problems
     - <a href="String/palindrome.java">Palindrome.</a>
+    - <a href="String/MultiplyStrings.java">Multiply Strings</a>
+
