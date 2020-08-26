@@ -136,6 +136,7 @@ Breadth First Search(BFS):Level Order.
     - <a href="Stack/Problem/balanced_paranthesis.java">Balanced Brackets</a>
     - <a href="Stack/Problem/infix_to_postfix.java">Infix to Postfix</a>
     - <a href="Stack/Problem/postfix_evaluation.java">Postfix Evaluation</a>
+    - <a href="Stack/Problem/Trapping of water(Stack).java">Trapping of water</a>
 
 ### String
 > *Sequence of characters.*
