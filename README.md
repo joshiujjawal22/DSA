@@ -110,6 +110,7 @@ Breadth First Search(BFS):Level Order.
     - <a href="Linked List/Problems/reverse_using_recursion of linked list.java">Reverse</a>
     - <a href="Linked List/Problems/loopDetection(Floyd Method).java">Loop detection</a>
     - <a href="Linked List/Problems/BeginningPointOfLoop(Floyd Method).java">Beginning point of loop</a>
+    - <a href="Linked List/Problems/Deep copy of linked list with random pointer.java">Deep copy of linked list(Random Pointer)</a>
 
 ### Recursion
 > *Method of solving problems that involves breaking a problem down into smaller problems.*
