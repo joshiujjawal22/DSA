@@ -72,7 +72,7 @@ Breadth First Search(BFS):Level Order.
 
 - Problems
     - <a href="DP/Longest_Increasing_Subsequence.java">Longest Increasing Subsequence</a>
-
+    - <a href="DP/Perfect Square.java">Perfect Sqaure</a>
 
 ### Graph
 > *It is a non-linear data structure consisting of nodes and edges.*
